@@ -1,4 +1,22 @@
-body {
-  font-size: 18px;
+@import "./Variables.scss";
+
+:root {
+  height: 100%;
+  width: 100vw;
   font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+
+  background-color: $cream;
+
+  body {
+    height: 100%;
+    width: 100vw;
+
+    #root {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 }

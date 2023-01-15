@@ -1,12 +1,11 @@
-import "./App.css";
-import ChartContainer from "./components/ChartContainer/ChartContainer";
-import Header from "./components/Header/Header";
+import ExpensesContainer from "./Pages/ExpensesContainer";
+
+import "./styles/Global.scss";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <ChartContainer />
+      <ExpensesContainer />
     </div>
   );
 }
