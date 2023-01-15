@@ -1,0 +1,44 @@
+@import "../../styles/Variables.scss";
+
+.chart-container {
+  background-color: $very-pale-orange;
+  padding: 20px;
+  border-radius: 20px;
+  color: $dark-brown;
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  .divider {
+    //Chrome and Safari
+    border-color: $cream;
+    border-style: solid;
+    //Firefox and Opera
+    background-color: $medium-brow;
+    // IE7
+    color: $medium-brow;
+  }
+
+  .resume-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 3px;
+
+    .title {
+      font-size: 0.8rem;
+      color: $medium-brow;
+    }
+
+    .money {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    .percent {
+      font-weight: 700;
+      text-align: end;
+    }
+  }
+}
