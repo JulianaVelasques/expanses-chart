@@ -1,0 +1,23 @@
+@import "../../styles/Variables.scss";
+
+.header-container {
+  background-color: $sof-red;
+  border-radius: 20px;
+  padding: 16px;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: unset;
+    align-items: center;
+
+    .title {
+      font-size: 0.7rem;
+    }
+
+    .money {
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+  }
+}

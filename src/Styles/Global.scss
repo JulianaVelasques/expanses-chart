@@ -1,4 +1,23 @@
-body {
-  font-size: 18px;
+@import "./Variables.scss";
+
+:root {
+  height: 100%;
+  width: 100vw;
   font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  line-height: 10px;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: $cream;
+
+  body {
+    height: 100%;
+
+    #root {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 }
