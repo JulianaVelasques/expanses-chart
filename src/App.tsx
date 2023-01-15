@@ -1,4 +1,4 @@
-import ExpensesContainer from "./Pages/expensesContainer";
+import ExpensesContainer from "./Pages/ExpensesContainer";
 
 import "./styles/Global.scss";
 

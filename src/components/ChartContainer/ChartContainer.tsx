@@ -1,3 +1,5 @@
+import ChartComponent from "../Chart/Chart";
+
 import "./ChartContainer.scss";
 
 function ChartContainer() {
@@ -5,7 +7,7 @@ function ChartContainer() {
     <div className="chart-container">
       <h1>Spending - Last 7 days</h1>
 
-      <div>Chart here</div>
+      <ChartComponent />
 
       <hr className="divider" />
 
