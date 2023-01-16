@@ -1,8 +1,14 @@
 import ChartComponent from "../Chart/Chart";
 
+import Data from "../../data/data.json";
+
 import "./ChartContainer.scss";
 
 function ChartContainer() {
+  const totalExpense = Data.reduce((sum, val) => {
+    return sum + val.amount;
+  }, 0);
+
   return (
     <div className="chart-container">
       <h1>Spending - Last 7 days</h1>
@@ -14,7 +20,7 @@ function ChartContainer() {
       <div className="resume-content">
         <div>
           <p className="title">Total this month</p>
-          <p className="money">$478.33</p>
+          <p className="money">${totalExpense}</p>
         </div>
 
         <div>
