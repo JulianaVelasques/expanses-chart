@@ -1,6 +1,6 @@
 import ExpensesContainer from "./Pages/ExpensesContainer";
 
-import "./styles/Global.scss";
+import "./styles/global.scss";
 
 function App() {
   return (
