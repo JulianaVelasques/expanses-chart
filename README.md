@@ -51,8 +51,8 @@ Create personal project to implement the stacks that I'm currently learning.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Here](https://github.com/JulianaVelasques/expanses-chart)
+- Live Site URL: [Here](expanses-chart.vercel.app)
 
 ### Useful resources
 
@@ -64,6 +64,7 @@ Create personal project to implement the stacks that I'm currently learning.
 
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
 - [JavaScript](https://www.javascript.com/)
 - [SCSS / SASS](https://sass-lang.com/)
 
