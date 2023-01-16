@@ -4,6 +4,8 @@ Chart.register(...registerables);
 
 import Data from "../../data/data.json";
 
+import "./Chart.scss";
+
 function ChartComponent() {
   let biggestAmount = Data.reduce(
     (previousLargestNumber, currentLargestNumber) => {
@@ -51,7 +53,7 @@ function ChartComponent() {
   ];
 
   return (
-    <div>
+    <div className="chart-content">
       <Bar
         data={{ labels, datasets }}
         options={{
