@@ -1,3 +1,15 @@
 .container {
   width: 30rem;
 }
+
+@media screen and (max-width: 650px) {
+  .container {
+    width: 18rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 15rem;
+  }
+}

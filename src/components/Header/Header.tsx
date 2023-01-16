@@ -1,4 +1,4 @@
-import icon from "../../assets/icon.png";
+import Logo from "../../assets/logo.svg";
 
 import "./Header.scss";
 
@@ -11,7 +11,7 @@ function Header() {
           <p className="money">$921.48</p>
         </div>
 
-        <img src={icon} alt="" width="45px" height="40px" />
+        <img src={Logo} alt="" width="45px" height="40px" />
       </div>
     </div>
   );
